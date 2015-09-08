@@ -1,0 +1,9 @@
+CREATE table Users (
+Id int IDENTITY(1,1) PRIMARY KEY,
+FirstName varchar(200) not null,
+LastName varchar(200) not null,
+UserName varchar(50) NOT NULL UNIQUE,
+Phone varchar(20),
+EmailID varchar(200),
+createdDate datetime
+);
